@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Automatic Query String Adder",
+    "version": "1.0",
+    "description": "Automatically adds specified query string parameters to every outgoing request.",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
